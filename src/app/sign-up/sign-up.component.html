@@ -1,0 +1,51 @@
+<div id="content" class="container login-top-buffer ">
+	<div class="card pt-3 mx-auto" style="width:70%;">
+       <div class="card-body">
+
+         <form>
+           <div class="form-group">
+             <div id="form1" class="text-center">First Name</div>
+             <input [(ngModel)]="this.firstName" name="this.firstName" type="firstName" class="form-control" placeholder="Momin">
+           </div>
+           <div class="form-group">
+             <div id="form1" class="text-center">Last Name</div>
+             <input [(ngModel)] = "this.lastName" name="this.lastName" type="lastName" class="form-control" placeholder="Irfan"
+             name="this.lastName">
+           </div>
+            <div class="form-group">
+             <div id="form1" class="text-center">Email</div>
+             <input [(ngModel)] = "this.email" name="this.email" type="email" class="form-control" placeholder="momin@example.com"
+             name="this.email">
+           </div>
+
+           <div class="form-group">
+             <div id="form1" class="text-center">Password</div>
+             <input [(ngModel)] = "this.password" name="this.password" type="password" class="form-control" placeholder="password"
+             name="this.password">
+           </div>
+
+           <div class="form-group">
+             <div id="form1" class="text-center">Confirm Password</div>
+             <input [(ngModel)] = "this.confirmPwd" name="this.confirmPwd" type="password" class="form-control" placeholder="re-enter password"
+             name="this.confirmPwd">
+           </div>
+
+
+           <div class="form-group">
+             <div id="form1" class="text-center">School</div>
+             <input [(ngModel)] = "this.college" name="this.school" type="school" class="form-control" placeholder="Advising AI College"
+             name="this.college">
+           </div>
+         </form>
+
+         <button (click)="this.onSignUp()" class="btn btn-primary btn-block">Sign Up</button>
+         <div class="row">
+	    <a class="text-center col-12 pt-2" style="font-size:x-small;">
+	      Already a member? <a href="https://www.advisingai-main.appspot.com/" > Sign In</a>
+	    </a>
+	  </div>
+       </div>
+     </div>
+   </div>
+
+   
