@@ -1,14 +1,15 @@
 .border-bottom-primary{
   border-bottom: solid 1px;
-  border-color:#007bff;
+  border-color:#000000;
   background:#ebf5fc;
 }
+
 
 .img-fluid{
     max-width:100%;
 }
 
 #logo{
-  width:170px;
+  width:225px;
   height:50px;
 }
