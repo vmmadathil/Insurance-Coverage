@@ -1048,7 +1048,7 @@ header .social-links ul li a:focus {
 }
 .main-content-tablecell #counter span {
 	float: left;
-	text-align: right;
+	text-align: left;
 	color: #FFFFFF;
 	font-family: "roboto-black", sans-serif;
 	font-size: 12rem;
