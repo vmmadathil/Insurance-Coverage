@@ -84,7 +84,41 @@
           </div>
         </div>
       </div>
-
+      <span></span>
+      <div class="container pt-lg-md">
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <div class="card bg-secondary shadow border-0">
+                <div class="card-body px-lg-5 py-lg-5">
+                    <div class="progress-wrapper">
+                        <div class="progress-info">
+                          <div class="progress-label">
+                            <span>Task completed</span>
+                          </div>
+                          <div class="progress-percentage">
+                            <span>70%</span>
+                          </div>
+                        </div>
+                        <ngb-progressbar type="default" [value]="55"></ngb-progressbar>
+                      </div>
+                  <p>I live in the state of</p>
+                  <div class="form-group" [ngClass]="{'focused':focus1===true}">
+                    <div class="input-group input-group-alternative mb-4">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="ni ni-zoom-split-in"></i></span>
+                      </div>
+                      <input class="form-control" placeholder="Search" type="text" (focus)="focus1=true"
+                        (blur)="focus1=false">
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <button type="button" class="btn btn-primary my-4">NEXT</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
   </section>
 </main>

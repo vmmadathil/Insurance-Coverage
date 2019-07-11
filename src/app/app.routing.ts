@@ -1,3 +1,4 @@
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { NgModule } from '@angular/core';
 import { CommonModule, } from '@angular/common';
 import { BrowserModule  } from '@angular/platform-browser';
@@ -15,6 +16,7 @@ const routes: Routes =[
     { path: 'register',           component: SignupComponent },
     { path: 'landing',          component: LandingComponent },
     { path: 'login',          component: LoginComponent },
+    {path: 'confirmation', component: ConfirmationComponent},
     { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 
